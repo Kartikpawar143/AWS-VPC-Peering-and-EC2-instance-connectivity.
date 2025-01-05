@@ -24,22 +24,20 @@ Create the subnet.<br>
 
 ![Screenshot 2025-01-04 112942](https://github.com/user-attachments/assets/05ffd680-4537-4e8b-a1a8-8a8d992eb061)
 
-![Screenshot_20230704_175302](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/0ee7f405-88b1-4c25-8c3e-289d7f0be26a)
+![Screenshot 2025-01-04 112942](https://github.com/user-attachments/assets/cecd33fc-600d-4146-b800-6cfc82d490c7)
 
 # Configuring Internet Gateway
 
 Go back to the dashboard and select "Internet Gateway".<br>
 Create an internet gateway using the VPC you just created.<br>
 
-![Screenshot_20230704_175327](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/b1d2be7a-91a3-4e11-aee5-f826b126fcaf)
+![Screenshot 2025-01-04 113125](https://github.com/user-attachments/assets/0ba5d7a2-8337-40ca-afa9-290fadad9c56)
 
-![Screenshot_20230704_175346](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/02f532f7-1acc-4658-ba40-9882941bcf82)
+![Screenshot 2025-01-04 113639](https://github.com/user-attachments/assets/58baa63f-8eaf-46e5-9ee6-607eb13950d2)
 After creating the internet gateway, click on "Actions" at the top right side and select "Attach to VPC".<br>
 
-![Screenshot_20230704_175400](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/64b41723-afb2-4ed1-8e3a-5a5947c6820d)
-
-![Screenshot_20230704_175418](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/6dafbf55-5b8b-40aa-9673-fcfea7705035)
-
+![Screenshot 2025-01-04 113722](https://github.com/user-attachments/assets/5fa11536-0cdf-44bd-952d-7d2c650a901b)
+![Screenshot 2025-01-04 113736](https://github.com/user-attachments/assets/acd83da0-d13a-43d1-a308-1e87a32af4fb)
 # Setting Up Route Table
 
 Navigate to the "Route Table" in the dashboard.<br>
