@@ -67,16 +67,15 @@ Click on "Create security group" and provide a name for the security group.<br>
 ![Screenshot 2025-01-04 114327](https://github.com/user-attachments/assets/25d09b4e-e587-45cd-a8f9-beb7ce643634)
 Select your VPC.
 
-![Screenshot 2025-01-04 114527](https://github.com/user-attachments/assets/bf8ebc5e-935d-43bc-864d-14adf75c40fd)
+![Screenshot 2025-01-04 114636](https://github.com/user-attachments/assets/869bc3a6-d2e0-4a8a-8187-9033e02ecea2)
 Click on "Edit inbound rules" and add a rule for "All ICMP IPv4" with the source set to "Anywhere - IPv4".<br>
 Save the rules.<br>
 
-![Screenshot 2025-01-04 114636](https://github.com/user-attachments/assets/869bc3a6-d2e0-4a8a-8187-9033e02ecea2)
+![Screenshot 2025-01-04 114327](https://github.com/user-attachments/assets/25d09b4e-e587-45cd-a8f9-beb7ce643634)
 
 # Launching EC2 Instance
 
-![Screenshot_20230704_175842](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/2af477c3-2174-4558-9a8c-c22490e91566)
-
+![Screenshot 2025-01-04 114327](https://github.com/user-attachments/assets/25d09b4e-e587-45cd-a8f9-beb7ce643634)
 ![Screenshot_20230704_175857](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/8566edf4-c869-4a0e-8e23-21788daf7a3a)
 
 Go to the EC2 section.<br>
