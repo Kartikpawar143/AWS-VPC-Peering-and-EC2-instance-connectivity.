@@ -24,19 +24,18 @@ Create the subnet.<br>
 
 ![Screenshot 2025-01-04 112942](https://github.com/user-attachments/assets/05ffd680-4537-4e8b-a1a8-8a8d992eb061)
 
-![Screenshot 2025-01-04 112942](https://github.com/user-attachments/assets/cecd33fc-600d-4146-b800-6cfc82d490c7)
-
+![Screenshot 2025-01-04 113125](https://github.com/user-attachments/assets/0ba5d7a2-8337-40ca-afa9-290fadad9c56)
 # Configuring Internet Gateway
 
 Go back to the dashboard and select "Internet Gateway".<br>
 Create an internet gateway using the VPC you just created.<br>
 
-![Screenshot 2025-01-04 113125](https://github.com/user-attachments/assets/0ba5d7a2-8337-40ca-afa9-290fadad9c56)
-
 ![Screenshot 2025-01-04 113639](https://github.com/user-attachments/assets/58baa63f-8eaf-46e5-9ee6-607eb13950d2)
-After creating the internet gateway, click on "Actions" at the top right side and select "Attach to VPC".<br>
 
 ![Screenshot 2025-01-04 113722](https://github.com/user-attachments/assets/5fa11536-0cdf-44bd-952d-7d2c650a901b)
+After creating the internet gateway, click on "Actions" at the top right side and select "Attach to VPC".<br>
+
+![Screenshot 2025-01-04 113736](https://github.com/user-attachments/assets/acd83da0-d13a-43d1-a308-1e87a32af4fb)
 ![Screenshot 2025-01-04 113736](https://github.com/user-attachments/assets/acd83da0-d13a-43d1-a308-1e87a32af4fb)
 # Setting Up Route Table
 
