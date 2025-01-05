@@ -71,7 +71,7 @@ Select your VPC.
 Click on "Edit inbound rules" and add a rule for "All ICMP IPv4" with the source set to "Anywhere - IPv4".<br>
 Save the rules.<br>
 
-![Screenshot 2025-01-04 114327](https://github.com/user-attachments/assets/25d09b4e-e587-45cd-a8f9-beb7ce643634)
+![Screenshot 2025-01-04 114527](https://github.com/user-attachments/assets/64093cad-90e9-4560-8e57-911e60ee8e7f)
 
 # Launching EC2 Instance
 
