@@ -129,7 +129,7 @@ Add a new route with the destination as the IP of "vpc-B" and the target as "VPC
 ![Screenshot 2025-01-05 115350](https://github.com/user-attachments/assets/787107c8-978f-4ca7-a1d0-c275103199e6)
 Repeat the above step for the route table of "vpc-B", adding a rule with the destination as the IP of "vpc-A" and the target as "VPC Peering".
 
-![Screenshot 2025-01-05 115444](https://github.com/user-attachments/assets/a812c820-b92c-44d5-a6e6-5ee494693357
+![Screenshot 2025-01-05 115444](https://github.com/user-attachments/assets/a812c820-b92c-44d5-a6e6-5ee494693357).
 
 # Connecting to EC2 Instance
 
@@ -146,8 +146,7 @@ Run the command: <br>
 -sudo -i
 ```
 
-![Screenshot_20230704_184515](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/531ddc31-7bcf-46b0-b1fc-b7d12f365a81)
-
+![Screenshot 2025-01-05 121532](https://github.com/user-attachments/assets/9c8bf58a-9895-4889-82fd-31e70333a5b8)
 Create an empty file with a name of target Ec2's key pair file (e.g., "peering-B"):<br>
 
 Run the command: <br>
@@ -162,10 +161,8 @@ Run the command: <br>
 -vi peering-B
 ```
 
-![Screenshot_20230704_184544](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/a80f7b01-f3ad-494c-80a2-268af5222c25)
-
-![Screenshot_20230704_184702](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/a60c3d23-70d2-4c25-91cf-2b9cdb96dbc7)
-
+![Screenshot 2025-01-05 121532](https://github.com/user-attachments/assets/9c8bf58a-9895-4889-82fd-31e70333a5b8)
+![Screenshot 2025-01-05 121645](https://github.com/user-attachments/assets/ca2e05f2-1a89-45d8-be93-737a74ce6a3c)
 Modify the permissions of the file:<br>
 
 Run the command: <br>
@@ -179,10 +176,9 @@ Run the command: <br>
 ```diff
 -ssh -i <<key-pair-file-name>> ec2-user@<<Target Linux EC2's Private IP>>
 ```
-![Screenshot_20230704_184713](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/e581d8ae-2d85-47d5-8e98-05df485a9bc8)
-
+![Screenshot 2025-01-05 121756](https://github.com/user-attachments/assets/6ebd2f17-8eb0-4ff6-910e-cad3c0d16fa0)
 Select "yes" to confirm the connection
 
-![Screenshot_20230704_184721](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/4bcc313a-6353-4a7b-aae7-52a4fc4d197f)
+![Screenshot 2025-01-05 121811](https://github.com/user-attachments/assets/233a2832-2344-4a23-a960-ffd4cd82a07c)
 
 # You have successfully established a connection between the two EC2 instances.
