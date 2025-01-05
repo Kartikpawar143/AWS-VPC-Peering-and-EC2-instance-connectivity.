@@ -54,25 +54,24 @@ Target: The internet gateway that you just created<br><br>
 
 ![Screenshot 2025-01-04 113957](https://github.com/user-attachments/assets/43dffd79-ecd7-4499-b11f-547624d9eb34)
 Go to the "Subnet associations" tab in the route table.<br>
-
-![Screenshot 2025-01-04 114215](https://github.com/user-attachments/assets/c0280b67-b383-494a-87f7-c0b277cdf2e1)
 Click on "Edit subnet association" and select the subnet you created.<br>
 Save the associations.<br>
 
-![Screenshot 2025-01-04 114327](https://github.com/user-attachments/assets/25d09b4e-e587-45cd-a8f9-beb7ce643634)
+![Screenshot 2025-01-04 114215](https://github.com/user-attachments/assets/c0280b67-b383-494a-87f7-c0b277cdf2e1)
+
 # Creating Security Group
 
 Scroll down on the dashboard and navigate to "Security Groups".<br>
 Click on "Create security group" and provide a name for the security group.<br>
 
-![Screenshot 2025-01-04 114527](https://github.com/user-attachments/assets/bf8ebc5e-935d-43bc-864d-14adf75c40fd)
+![Screenshot 2025-01-04 114327](https://github.com/user-attachments/assets/25d09b4e-e587-45cd-a8f9-beb7ce643634)
 Select your VPC.
 
-![Screenshot 2025-01-04 114636](https://github.com/user-attachments/assets/869bc3a6-d2e0-4a8a-8187-9033e02ecea2)
+![Screenshot 2025-01-04 114527](https://github.com/user-attachments/assets/bf8ebc5e-935d-43bc-864d-14adf75c40fd)
 Click on "Edit inbound rules" and add a rule for "All ICMP IPv4" with the source set to "Anywhere - IPv4".<br>
 Save the rules.<br>
 
-![Screenshot_20230704_175752](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/28e7f072-3810-4c96-ab79-f3cdb1937ae0)
+![Screenshot 2025-01-04 114636](https://github.com/user-attachments/assets/869bc3a6-d2e0-4a8a-8187-9033e02ecea2)
 
 # Launching EC2 Instance
 
