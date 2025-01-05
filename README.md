@@ -4,7 +4,7 @@
 Login to the AWS console and navigate to the VPC section.<br>
 Click on "Create VPC"<br><br>
 
-![Screenshot_20230704_174920](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/9f58964c-2628-486d-80d6-c4320d618990)
+![Screenshot 2025-01-04 111317](https://github.com/user-attachments/assets/2b1b058d-fd48-4e39-850c-018cb21da771)
 
 ![Screenshot_20230704_175034](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/d764f716-e77d-4551-ba86-de67180dafc8)
 
