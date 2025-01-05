@@ -75,57 +75,49 @@ Save the rules.<br>
 
 # Launching EC2 Instance
 
-![Screenshot 2025-01-04 114327](https://github.com/user-attachments/assets/25d09b4e-e587-45cd-a8f9-beb7ce643634)
-![Screenshot_20230704_175857](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/8566edf4-c869-4a0e-8e23-21788daf7a3a)
+![Screenshot 2025-01-04 114709](https://github.com/user-attachments/assets/feb02f5d-d239-4cfb-a252-2d8b53c7b2e9)
+![Screenshot 2025-01-04 114841](https://github.com/user-attachments/assets/f5700034-8df3-43c5-ae3a-496074e25616)
 
 Go to the EC2 section.<br>
 Click on "Launch instance" and select a name tag for your instance.<br>
 
-![Screenshot_20230704_175957](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/ad8a7ab9-7caf-4b63-940b-874c5040ad2d)
-
+![Screenshot 2025-01-04 115037](https://github.com/user-attachments/assets/e4bf796d-593f-4811-9a82-403dfc1acd8c)
 Select an Amazon Machine Image (AMI) and Instance Type
 
-![Screenshot_20230704_180007](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/cd5b8e13-0875-4f7c-8143-3f9f38827f07)
+![Screenshot 2025-01-04 115141](https://github.com/user-attachments/assets/684647d6-f962-44f7-9b27-cb7924921e26)
 
 Create a new key pair (e.g., "peering-A") or use an existing one.
 
-![Screenshot_20230704_180035](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/d7fc2433-ebb0-4041-a364-f446072ab7bb)
-
+![Screenshot 2025-01-04 115304](https://github.com/user-attachments/assets/f7200e0d-11ed-49c8-a616-6aae95187d66)
 Scroll down and edit the "Network Setting".<br>
 Select your VPC and enable auto-assign public IP.<br>
 Select the existing security group you created.<br>
 Click on "Launch instance" and connect to the instance.<br>
 
-![Screenshot_20230704_180216](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/d315c39e-57c4-4ba8-a4a2-242ca76c1d69)
-
+![Screenshot 2025-01-04 115419](https://github.com/user-attachments/assets/798e8a1f-0456-46dd-9b5a-d8c691a10fdc)
 # Creating Second VPC and Subnet
 
 Repeat the above steps to create another VPC called "vpc-B".<br>
 Use CIDR range 172.16.0.0/16 for the VPC and 172.16.1.0/24 for the subnet.<br>
 
-![Screenshot_20230704_181654](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/7962dbcb-51e0-449a-9113-29d5602126f2)
-
+![Screenshot 2025-01-04 121206](https://github.com/user-attachments/assets/0abcc109-0f69-40e8-8516-533b8a83e9a6)
 Launch an EC2 instance named "linux-B" in vpc-B.
 
-![Screenshot_20230704_182046](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/1d5b3914-92ac-4323-b4e1-731a45717da8)
-
+![Screenshot 2025-01-04 121250](https://github.com/user-attachments/assets/24fd9bea-cbcb-4f24-aec8-c20fbe578d99)
 # Setting Up VPC Peering
 
 Go to the VPC dashboard and navigate to "VPC Peering".<br>
 Select "Create VPC Peering"<br>
 
-![Screenshot_20230704_183749](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/856add25-2ddc-4a19-b54e-6189430407ab)
-
+![Screenshot 2025-01-04 121345](https://github.com/user-attachments/assets/2aa945a8-c47b-4bbd-b28b-aa90e641ba17)
 Give it a name (e.g., "peering-AB").<br>
 Set "VPC-A" as the requester, "my account" as the accepter, and "VPC-B" as the select another VPC.<br>
 Click on "Create Peering Connection".<br>
 
-![Screenshot_20230704_183930](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/05ba822d-3a60-43b1-afc5-f458ae9c9c04)
-
+![Screenshot 2025-01-04 121540](https://github.com/user-attachments/assets/d2e48ff7-9892-46e8-b511-15ed5e2c2328)
 In the "Actions" menu at the top right side, select "Accept Request" to accept the peering connection.
 
-![Screenshot_20230704_184003](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/887c42f8-fe32-44d2-be68-a0dbe39166d5)
-
+![Screenshot 2025-01-04 121602](https://github.com/user-attachments/assets/3e45a8a7-1d9b-4531-afdd-c7c84ea55617)
 # Configuring Route Tables for VPC Peering
 
 Go to the VPC dashboard and navigate to the route tables.<br>
