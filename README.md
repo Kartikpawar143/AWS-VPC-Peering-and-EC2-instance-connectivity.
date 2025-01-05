@@ -36,15 +36,15 @@ Create an internet gateway using the VPC you just created.<br>
 After creating the internet gateway, click on "Actions" at the top right side and select "Attach to VPC".<br>
 
 ![Screenshot 2025-01-04 113736](https://github.com/user-attachments/assets/acd83da0-d13a-43d1-a308-1e87a32af4fb)
-![Screenshot 2025-01-04 113736](https://github.com/user-attachments/assets/acd83da0-d13a-43d1-a308-1e87a32af4fb)
+![Screenshot 2025-01-04 113804](https://github.com/user-attachments/assets/c8d266a8-93eb-4649-a8fa-f1e8e3269d08)
 # Setting Up Route Table
 
 Navigate to the "Route Table" in the dashboard.<br>
 To make it easier to understand, rename the already created route table in your VPC.<br>
 
-![Screenshot_20230704_175448](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/8280eace-5e7a-4c83-916e-d23397525e33)
+![Screenshot 2025-01-04 113851](https://github.com/user-attachments/assets/177f3da4-a3b9-4a95-af17-57e036ceda86)
 
-![Screenshot_20230704_175511](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/dbac6e72-90e8-410b-b05a-12e48da12f9d)
+![Screenshot 2025-01-04 113932](https://github.com/user-attachments/assets/25653da7-1150-48e2-9c8e-61621ab65470)
 
 In the route table, click on "Edit routes".<br>
 To allow your subnet to access the internet, add a new route to the subnet route table with the following settings:<br>
@@ -52,27 +52,23 @@ To allow your subnet to access the internet, add a new route to the subnet route
 Destination: 0.0.0.0/0<br>
 Target: The internet gateway that you just created<br><br>
 
-![Screenshot_20230704_175536](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/a6e2df44-b53b-4484-b111-584566b341bd)
-
+![Screenshot 2025-01-04 113957](https://github.com/user-attachments/assets/43dffd79-ecd7-4499-b11f-547624d9eb34)
 Go to the "Subnet associations" tab in the route table.<br>
 
-![Screenshot_20230704_175601](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/9d1a9612-52cd-4c7f-8795-5d2617ee97ba)
+![Screenshot 2025-01-04 114215](https://github.com/user-attachments/assets/c0280b67-b383-494a-87f7-c0b277cdf2e1)
 Click on "Edit subnet association" and select the subnet you created.<br>
 Save the associations.<br>
 
-![Screenshot_20230704_175613](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/ea2d8495-57f3-4127-8f06-1a997678b150)
-
+![Screenshot 2025-01-04 114327](https://github.com/user-attachments/assets/25d09b4e-e587-45cd-a8f9-beb7ce643634)
 # Creating Security Group
 
 Scroll down on the dashboard and navigate to "Security Groups".<br>
 Click on "Create security group" and provide a name for the security group.<br>
 
-![Screenshot_20230704_175642](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/50e8cbe0-d55b-475f-bc93-611fd71025e8)
-
+![Screenshot 2025-01-04 114527](https://github.com/user-attachments/assets/bf8ebc5e-935d-43bc-864d-14adf75c40fd)
 Select your VPC.
 
-![Screenshot_20230704_175701](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/e9456c5b-e8f7-4d18-b974-779303dbc569)
-
+![Screenshot 2025-01-04 114636](https://github.com/user-attachments/assets/869bc3a6-d2e0-4a8a-8187-9033e02ecea2)
 Click on "Edit inbound rules" and add a rule for "All ICMP IPv4" with the source set to "Anywhere - IPv4".<br>
 Save the rules.<br>
 
