@@ -6,25 +6,23 @@ Click on "Create VPC"<br><br>
 
 ![Screenshot 2025-01-04 111317](https://github.com/user-attachments/assets/2b1b058d-fd48-4e39-850c-018cb21da771)
 
-![Screenshot_20230704_175034](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/d764f716-e77d-4551-ba86-de67180dafc8)
-
+![Screenshot 2025-01-04 111417](https://github.com/user-attachments/assets/c9f5d83a-61f1-47cd-bb60-21fb063a6360)
 
 provide a name tag for your VPC (e.g., "vpc-A").<br>
 Define the CIDR range for your VPC (e.g., "10.0.0.0/16").<br>
 Leave the other settings as default and click on "Create VPC".<br>
 
-![Screenshot_20230704_175147](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/e4c06405-3d73-4cb6-8650-db2c4c77c55d)
-
+![Screenshot 2025-01-04 111618](https://github.com/user-attachments/assets/7e5685aa-3386-456c-ba4c-d70c09021ce6)
 
 On the left side of the VPC dashboard, select "Subnets."<br>
 Click on "Create Subnet."<br>
 
-![Screenshot_20230704_175214](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/dd485994-79bc-4939-aaa4-3f10102df339)
+![Screenshot 2025-01-04 111709](https://github.com/user-attachments/assets/e9245bb8-136c-4888-a20b-5f99c21ef226)
 Select the VPC you just created.<br>
 Set the CIDR range for the subnet, e.g., "10.0.1.0/24."<br>
 Create the subnet.<br>
 
-![Screenshot_20230704_175226](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/818d1932-87a8-4482-ab29-90aef167dcd4)
+![Screenshot 2025-01-04 112942](https://github.com/user-attachments/assets/05ffd680-4537-4e8b-a1a8-8a8d992eb061)
 
 ![Screenshot_20230704_175302](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/0ee7f405-88b1-4c25-8c3e-289d7f0be26a)
 
