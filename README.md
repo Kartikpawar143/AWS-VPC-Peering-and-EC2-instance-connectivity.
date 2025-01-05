@@ -122,18 +122,18 @@ In the "Actions" menu at the top right side, select "Accept Request" to accept t
 
 Go to the VPC dashboard and navigate to the route tables.<br>
 
-![Screenshot 2025-01-04 122334](https://github.com/user-attachments/assets/c5b4bc7c-ef09-4623-9c5c-2b631e0723ee)
+![Screenshot 2025-01-04 122605](https://github.com/user-attachments/assets/05a4fe84-b43a-402a-9d34-98147a587c92)
 Click on "Edit routes" for the route table of "vpc-A".<br>
 Add a new route with the destination as the IP of "vpc-B" and the target as "VPC Peering".<br>
 
-![Screenshot 2025-01-04 122605](https://github.com/user-attachments/assets/05a4fe84-b43a-402a-9d34-98147a587c92)
+![Screenshot 2025-01-04 122709](https://github.com/user-attachments/assets/ba4824e8-aaad-4c53-aada-e5488243f6b8)
 Repeat the above step for the route table of "vpc-B", adding a rule with the destination as the IP of "vpc-A" and the target as "VPC Peering".
 
-![Screenshot 2025-01-04 122709](https://github.com/user-attachments/assets/ba4824e8-aaad-4c53-aada-e5488243f6b8)
+![Screenshot 2025-01-04 122714](https://github.com/user-attachments/assets/0a0eec9c-2eab-483d-bb11-c740d876b600)
 
 # Connecting to EC2 Instance
 
-![Screenshot 2025-01-04 122714](https://github.com/user-attachments/assets/0a0eec9c-2eab-483d-bb11-c740d876b600)
+![Screenshot 2025-01-04 122827](https://github.com/user-attachments/assets/cd645e89-aa41-4440-8e47-5dca917a5ef3)
 ![Screenshot_20230704_184440](https://github.com/Diplahane/AWS-VPC-Perring-and-EC2-Instance-Connectivity/assets/129828021/fa01f6a7-3b46-4b03-b417-bd83663ebc65)
 
 To establish a connection between the EC2 instances, follow these steps:<br>
