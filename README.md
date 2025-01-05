@@ -133,8 +133,8 @@ Repeat the above step for the route table of "vpc-B", adding a rule with the des
 
 # Connecting to EC2 Instance
 
-![Screenshot 2025-01-05 121532](https://github.com/user-attachments/assets/fa970e1f-636d-425b-a6a9-7480b41ce7bf)
-![Screenshot 2025-01-05 121645](https://github.com/user-attachments/assets/2c42386c-f6bb-4014-974f-c29d6357500a)
+![Screenshot 2025-01-05 123153](https://github.com/user-attachments/assets/56ec5b39-5171-40eb-b751-1c321734ea7d)
+![Screenshot 2025-01-05 123249](https://github.com/user-attachments/assets/073a3600-075b-4a04-a1bb-0fb66d932396)
 To establish a connection between the EC2 instances, follow these steps:<br>
 
 Connect to one of the EC2 instance<br>
@@ -147,18 +147,18 @@ Run the command: <br>
 ```
 
 ![Screenshot 2025-01-05 121532](https://github.com/user-attachments/assets/9c8bf58a-9895-4889-82fd-31e70333a5b8)
-Create an empty file with a name of target Ec2's key pair file (e.g., "peering-B"):<br>
+Create an empty file with a name of target Ec2's key pair file (e.g., "peering-B.pem"):<br>
 
 Run the command: <br>
 ```diff
--touch peering-B
+-touch peering-B.pem
 ```
 
 Edit the file and paste the private key of the EC2 instance that you want to connect to:<br>
 
 Run the command: <br>
 ```diff
--vi peering-B
+-vi peering-B.pem
 ```
 
 ![Screenshot 2025-01-05 121532](https://github.com/user-attachments/assets/9c8bf58a-9895-4889-82fd-31e70333a5b8)
@@ -167,14 +167,14 @@ Modify the permissions of the file:<br>
 
 Run the command: <br>
 ```diff
--chmod 400 peering-B
+-chmod 400 peering-B.pem
 ```
 
 Use the SSH command to establish the connection to the other EC2 instance:<br>
 
 Run the command: <br>
 ```diff
--ssh -i <<key-pair-file-name>> ec2-user@<<Target Linux EC2's Private IP>>
+-ssh -i <<key-pair-file-name>> ubuntu@<<Target Linux EC2's Private IP>>
 ```
 ![Screenshot 2025-01-05 121756](https://github.com/user-attachments/assets/6ebd2f17-8eb0-4ff6-910e-cad3c0d16fa0)
 Select "yes" to confirm the connection
